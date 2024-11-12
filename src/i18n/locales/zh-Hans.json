@@ -1,0 +1,336 @@
+{
+  "common": {
+    "filters": {
+      "modelLabel": "型号",
+      "locationLabel": "地点",
+      "allLabel": "全部"
+    }
+  },
+  "pages": {
+    "loginScreen": {
+      "heading": "登录",
+      "email": "电子邮件",
+      "password": "密码",
+      "forgetPasswordLink": "忘记密码",
+      "errorMessage": "电子邮件或密码不正确! ",
+      "signInButton": "登录"
+    },
+    "notFound": {
+      "heading": "找不到网页",
+      "error": "404 错误",
+      "message": "哎呀，出了点问题，请刷新页面",
+      "buttonContent": "回家"
+    },
+    "forgotPassword": {
+      "heading": "忘记密码",
+      "email": "您的电子邮件",
+      "successMessage": "我们已向 {{mailId}} 发送了一封电子邮件，请点击邮件中的链接重置密码.",
+      "resetPasswordButtonContent": "提交",
+      "errorMessage": "请输入有效的电子邮件地址"
+    },
+    "resetPassword": {
+      "heading": "重置密码",
+      "password": "输入新密码",
+      "confirmPassword": "确认密码",
+      "successMessage": "密码重置成功",
+      "resetPasswordButtonContent": "重置密码",
+      "loginPageLink": "点击这里登录",
+      "errorMessage": "密码重置失败"
+    }
+  },
+  "views": {
+    "activeDevices": {
+      "cardHeading": "设备DID激活看板",
+      "activeDIDCountTable": {
+        "headers": {
+          "modelName": "型号名称",
+          "location": "地点",
+          "count": "计数"
+        },
+        "noDataMessage": "目前没有被激活的设备DID需要展示"
+      }
+    },
+    "addDevice": {
+      "cardHeading": "添加新设备"
+    },
+    "deviceFiles": {
+      "cardHeadingDeviceFiles": "设备文件",
+      "cardHeadingModelName": "型号名称 : {{modelName}}"
+    },
+    "deviceManagement": {
+      "deviceManage": {
+        "CardHeading": "设备管理",
+        "addDeviceButton": " 添加新设备",
+        "deviceModelsListEmpty": "您尚未添加任何设备。请点击上方的 '添加新设备' 按钮添加设备。"
+      },
+      "deviceModel": {
+        "deviceCategory": {
+          "deviceCategoryLabel": "设备类别"
+        },
+        "modelStatus": {
+          "draft": "草稿",
+          "review": "待审核",
+          "published": "已发布"
+        },
+        "modelNamelabel": "型号名称",
+        "reviewModelButton": "送审",
+        "editModelButton": "编辑",
+        "deviceFilesButton": "设备文件",
+        "labelsMapping": {
+          "detections": "侦测",
+          "fieldOfView": "视场角",
+          "flash": "闪存大小",
+          "frequencyBands": "频段",
+          "powerSource": "电源",
+          "ram": "内存 (MB)",
+          "supportHardwareDetection": "支持硬件端侦测",
+          "supportPTZ": "支持 PTZ",
+          "videoQuality": "视频质量"
+        }
+      }
+    },
+    "DIDManagement": {
+      "DIDManage": {
+        "CardHeading": "DID 申请系统",
+        "makeRequestButton": "申请DID",
+        "requestListEmpty": "您尚未申请任何 DID。请单击上方的 '提出申请' 按钮申请 DID。",
+        "requestListTable": {
+          "requestTime": "申请时间",
+          "adminApproval": "管理员审批",
+          "modelOfCamera": "相机型号",
+          "count": "数量",
+          "DIDLink": "DID 链接"
+        },
+        "downloadFile": "下载",
+        "DIDStatusColour": {
+          "pending": "待定",
+          "processing": "加工",
+          "success": "成功",
+          "rejected": "拒绝"
+        }
+      },
+      "generateRequest": {
+        "cardHeading": "DID 申请系统",
+        "DIDFormRequest": {
+          "jobName": {
+            "requestName": "申请名称",
+            "helperTextForMaxSize": "允许的最大字符数为 100。",
+            "helperTextForRequired": "请输入申请名称"
+          },
+          "DIDCount": "输入您要申请的 DID 数量",
+          "typeOfDeviceModel": {
+            "label": "选择设备型号",
+            "errorMessage": "这里只列出已发布的型号",
+            "helperTextForRequired": "请选择设备型号"
+          }
+        },
+        "DeviceModelListEmpty": "没有已发布的设备",
+        "formSubmitButton": "提交申请"
+      }
+    },
+    "editDevice": {
+      "cardHeading": "编辑设备"
+    },
+    "forgotPassword": {
+      "heading": "忘记密码",
+      "email": {
+        "label": "电子邮件",
+        "helperTextForRequired": "请输入电子邮件地址",
+        "formatErrorMessage": "请输入有效的电子邮件地址",
+        "placeholder": "您的电子邮件"
+      },
+      "submitButton": "提交",
+      "mailMessage": "我们已向 {{mailId}} 发送了一封电子邮件，请点击邮件中的链接重置密码."
+    },
+    "loginScreen": {
+      "heading": "登录",
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "您的电子邮件"
+      },
+      "password": {
+        "placeholder": "密码",
+        "label": "密码"
+      },
+      "forgetPasswordLink": "忘记密码",
+      "errorMessage": "电子邮件或密码不正确！",
+      "signInButton": "登录"
+    },
+    "notFound": {
+      "heading": "404 找不到"
+    },
+    "passwordResetSuccess": {
+      "heading": "密码更改成功！",
+      "passwordChangeInfo": "您的密码已成功更改",
+      "loginButton": "登录页面"
+    },
+    "resetPassword": {
+      "resetPasswordSuccess": {
+        "successHeading": "密码更改成功！",
+        "passwordChangeSuccessSubHeading": "您的密码已成功更改。",
+        "loginButton": "登录页面"
+      },
+      "resetPasswordFails": {
+        "heading": "更改密码",
+        "newPassword": {
+          "label": "新密码",
+          "placeholder": "密码",
+          "minPasswordErrorMessage": "密码至少为 7 个字符",
+          "newPasswordRequiredMessage": "请输入新密码"
+        },
+        "confirmPassword": {
+          "label": "确认新密码",
+          "placeholder": "密码",
+          "mismatchError": "密码不匹配",
+          "confirmPasswordRequiredMessage": "请输入新密码"
+        },
+        "confirmButton": "确认"
+      }
+    },
+    "subscriptionTracking": {
+      "subscriptionTrackingHeading": "Instaview IoT订阅数据追踪",
+      "subscriptionNoPaymentData": "目前，我们还没有足够的订阅数据用来展示",
+      "subscriptionPaymentData": {
+        "paymentInfoLabel": "目前，我们还没有足够的订阅数据用来展示",
+        "dateOfPaymentLabel": "最后一次付款日期",
+        "lastPaymentLabel": "最后一次付款金额"
+      },
+      "profitSharingSectionHeading": "利润分享",
+      "regions": {
+        "china": "中国",
+        "us": "美国",
+        "eU": "欧盟",
+        "row": "世界其他地区（ROW）"
+      },
+      "profitSharePerModelHeading": "每个型号的利润份额"
+    },
+    "userManagement": {
+      "changePassword": {
+        "heading": "更改密码",
+        "oldPassword": {
+          "label": "旧密码",
+          "oldPasswordRequiredMessage": "请输入您的旧密码",
+          "placeholder": "输入您的旧密码"
+        },
+        "newPassword": {
+          "label": "新密码",
+          "minSizeErrorMessage": "密码至少为 7 个字符",
+          "samePasswordErrorMessage": "新旧密码不能相同",
+          "placeholder": "输入新密码",
+          "newPasswordRequiredMessage": "请输入新密码"
+        },
+        "confirmPassword": {
+          "label": "确认密码",
+          "confirmPasswordMatchMessage": "密码不匹配",
+          "confirmPasswordRequiredMessage": "请输入新密码",
+          "placeholder": "确认新密码"
+        },
+        "requestSuccess": "密码更改成功！",
+        "requestFailed": "密码更改失败。请重试。",
+        "updatePasswordButton": "更新密码"
+      },
+      "userForm": {
+        "cardHeading": "用户管理",
+        "userManagementSectionHeading": "管理用户",
+        "nameOfUser": {
+          "label": "用户名",
+          "placeholder": "输入用户名"
+        },
+        "createOEMUser": {
+          "companyName": {
+            "label": "公司名称"
+          },
+          "firstName": {
+            "label": "您的名字"
+          },
+          "lastName": {
+            "label": "您的姓氏"
+          },
+          "email": {
+            "label": "电子邮件"
+          }
+        },
+        "editButton": "编辑",
+        "removeButton": "移除",
+        "addButton": "添加"
+      }
+    }
+  },
+  "components": {
+    "deviceFiles": {
+      "specificationsFilesHeading": "规格文件",
+      "uploadButtonForSpecificationsFiles": "上传",
+      "templateFilesHeading": "模板文件",
+      "uploadButtonForTemplateFiles": "上传",
+      "firmwareFilesHeading": "固件文件",
+      "uploadButtonForFirmwareFiles": "上传"
+    },
+    "deviceModel": {
+      "fileHistory": {
+        "fileHistoryTable": {
+          "fileNameHeading": "文件名称",
+          "deviceIDHeading": "设备 ID",
+          "uploadDateHeading": "上传日期",
+          "versionNumberHeading": "版本号",
+          "linkHeading": "链接"
+        }
+      },
+      "deviceModelForm": {
+        "category": {
+          "label": "设备类别"
+        },
+        "modelName": {
+          "label": "设备型号名称"
+        },
+        "supportPTZ": {
+          "label": "支持 PTZ"
+        },
+        "supportHardwareDetection": {
+          "label": "支持硬件端侦测"
+        },
+        "detections": {
+          "label": "侦测种类选择"
+        },
+        "frequencyBands": {
+          "label": "支持的频段"
+        },
+        "videoQuality": {
+          "label": "视频质量"
+        },
+        "powerSource": {
+          "label": "电源"
+        },
+        "flash": {
+          "label": "闪存大小（MB）"
+        },
+        "ram": {
+          "label": "内存（MB）"
+        },
+        "fieldOfView": {
+          "label": "FOV（视场角）"
+        },
+        "saveDetailsButton": "保存详细信息"
+      }
+    },
+    "errorBoundary": {
+      "heading1": "出问题了",
+      "heading2": "请刷新"
+    },
+    "topBar": {
+      "topBarHeading": "合作伙伴平台",
+      "typography": "退出登录"
+    },
+    "sideBar": {
+      "labels": {
+        "activeDIDMap": "设备DID激活看板",
+        "userPortal": "用户账号管理",
+        "deviceManagement": "设备管理",
+        "InstaviewIOTSubscriptionTracking": "Instaview IoT订阅数据追踪",
+        "DIDManagement": "设备DID 管理"
+      }
+    },
+    "dropDown": {
+      "selectHeading": "请选择"
+    }
+  }
+}

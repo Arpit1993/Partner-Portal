@@ -1,0 +1,336 @@
+{
+  "common": {
+    "filters": {
+      "modelLabel": "Model",
+      "locationLabel": "Location",
+      "allLabel": "All"
+    }
+  },
+  "pages": {
+    "loginScreen": {
+      "heading": "Sign In",
+      "email": "Email",
+      "password": "Password",
+      "forgetPasswordLink": "Forgot Password",
+      "errorMessage": "email or password is incorrect!",
+      "signInButton": "Sign In"
+    },
+    "notFound": {
+      "heading": "Page Not Found",
+      "error": "404 error",
+      "message": "Oops something went wrong, please refresh the page",
+      "buttonContent": "Go Home"
+    },
+    "forgotPassword": {
+      "heading": "Forgot Password",
+      "email": "Enter Your Email",
+      "successMessage": "Password reset email sent successfully",
+      "resetPasswordButtonContent": "Forgot Password",
+      "errorMessage": "Email Address does not found"
+    },
+    "resetPassword": {
+      "heading": "Reset Password",
+      "password": "Enter New Password",
+      "confirmPassword": "Confirm Password",
+      "successMessage": "Password reset successfully",
+      "resetPasswordButtonContent": "Reset Password",
+      "loginPageLink": "Click here to login",
+      "errorMessage": "Failed to reset password"
+    }
+  },
+  "views": {
+    "activeDevices": {
+      "cardHeading": "Active DID Map",
+      "activeDIDCountTable": {
+        "headers": {
+          "modelName": "Model name",
+          "location": "Location",
+          "count": "Count"
+        },
+        "noDataMessage": "Currently there are no active DIDs to show."
+      }
+    },
+    "addDevice": {
+      "cardHeading": "Add New Device"
+    },
+    "deviceFiles": {
+      "cardHeadingDeviceFiles": "Device Files",
+      "cardHeadingModelName": "Model Name : {{modelName}}"
+    },
+    "deviceManagement": {
+      "deviceManage": {
+        "CardHeading": "Device Management",
+        "addDeviceButton": "Add New Device",
+        "deviceModelsListEmpty": "You have not added any device yet. Please click on 'Add New Device' button above to add a device."
+      },
+      "deviceModel": {
+        "deviceCategory": {
+          "deviceCategoryLabel": "Device Category"
+        },
+        "modelStatus": {
+          "draft": "Draft",
+          "review": "Pending Review",
+          "published": "Published"
+        },
+        "modelNamelabel": "Model Name",
+        "reviewModelButton": "Send for Review",
+        "editModelButton": "Edit",
+        "deviceFilesButton": "Device Files",
+        "labelsMapping": {
+          "detections": "Detections",
+          "fieldOfView": "FOV(Field of View)",
+          "flash": "Flash Size",
+          "frequencyBands": "Frequency Band",
+          "powerSource": "Power Source",
+          "ram": "RAM (in MB)",
+          "supportHardwareDetection": "Supports Hardware Detection",
+          "supportPTZ": "Supports PTZ",
+          "videoQuality": "Video Quality"
+        }
+      }
+    },
+    "DIDManagement": {
+      "DIDManage": {
+        "CardHeading": "DID Request System",
+        "makeRequestButton": "Request DIDs",
+        "requestListEmpty": "You have not requested any DID yet. Please click on 'Make Request' button above to request a DID.",
+        "requestListTable": {
+          "requestTime": "Request Time",
+          "adminApproval": "Admin Approval",
+          "modelOfCamera": "Model of camera",
+          "count": "Count",
+          "DIDLink": "DID Link"
+        },
+        "downloadFile": "Download",
+        "DIDStatusColour": {
+          "pending": "Pending",
+          "processing": "Processing",
+          "success": "Success",
+          "rejected": "Rejected"
+        }
+      },
+      "generateRequest": {
+        "cardHeading": "DID Request System",
+        "DIDFormRequest": {
+          "jobName": {
+            "requestName": "Name of the request",
+            "helperTextForMaxSize": "Maximum allowed number of characters is 100.",
+            "helperTextForRequired": "Please enter name of request"
+          },
+          "DIDCount": "Enter count of DIDs that you want to request",
+          "typeOfDeviceModel": {
+            "label": "Choose Device Model",
+            "errorMessage": "* Only published models will be listed here",
+            "helperTextForRequired": "Please select a device model"
+          }
+        },
+        "DeviceModelListEmpty": "No Published device Available",
+        "formSubmitButton": "Submit Request"
+      }
+    },
+    "editDevice": {
+      "cardHeading": "Edit Device"
+    },
+    "forgotPassword": {
+      "heading": "Forgot Password",
+      "email": {
+        "label": "Email",
+        "helperTextForRequired": "Please enter email address",
+        "formatErrorMessage": "Please enter valid email address",
+        "placeholder": "Your email"
+      },
+      "submitButton": "Submit",
+      "mailMessage": "We have sent an email to {{mailId}}. Please click on the link in email to reset your password."
+    },
+    "loginScreen": {
+      "heading": "Sign In",
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email"
+      },
+      "password": {
+        "placeholder": "Password",
+        "label": "Password"
+      },
+      "forgetPasswordLink": "Forgot Password",
+      "errorMessage": "email or password is incorrect!",
+      "signInButton": "Sign In"
+    },
+    "notFound": {
+      "heading": "404 Not Found"
+    },
+    "passwordResetSuccess": {
+      "heading": "Password changed successfully!",
+      "passwordChangeInfo": "Your password has been changed successfully",
+      "loginButton": "Login Page"
+    },
+    "resetPassword": {
+      "resetPasswordSuccess": {
+        "successHeading": "Password changed successfully!",
+        "passwordChangeSuccessSubHeading": "Your password has been changed successfully.",
+        "loginButton": "Login Page"
+      },
+      "resetPasswordFails": {
+        "heading": "Change Password",
+        "newPassword": {
+          "label": "New password",
+          "placeholder": "Password",
+          "minPasswordErrorMessage": "Password should be minimum of 7 characters",
+          "newPasswordRequiredMessage": "Please enter new password"
+        },
+        "confirmPassword": {
+          "label": "Confirm new password",
+          "placeholder": "Password",
+          "mismatchError": "Password does not match",
+          "confirmPasswordRequiredMessage": "Please enter new password"
+        },
+        "confirmButton": "Confirm"
+      }
+    },
+    "subscriptionTracking": {
+      "subscriptionTrackingHeading": "Instaview IOT Subscription Tracking",
+      "subscriptionNoPaymentData": "Currently we do not have enough subscription payments data to show various metrics here.",
+      "subscriptionPaymentData": {
+        "paymentInfoLabel": "The cut of earnings from the selection",
+        "dateOfPaymentLabel": "Date of last payment",
+        "lastPaymentLabel": "Last payment amount"
+      },
+      "profitSharingSectionHeading": "Profit Sharing",
+      "regions": {
+        "china": "China",
+        "us": "US",
+        "eU": "EU",
+        "row": "Rest of World(ROW)"
+      },
+      "profitSharePerModelHeading": "Profit Share Per Model"
+    },
+    "userManagement": {
+      "changePassword": {
+        "heading": "Change Password",
+        "oldPassword": {
+          "label": "Old password",
+          "oldPasswordRequiredMessage": "Please enter your old password",
+          "placeholder": "Enter your old password"
+        },
+        "newPassword": {
+          "label": "New password",
+          "minSizeErrorMessage": "Password should be minimum of 7 characters",
+          "samePasswordErrorMessage": "Old and new password cannot be same",
+          "placeholder": "Enter your new password",
+          "newPasswordRequiredMessage": "Please enter your new password"
+        },
+        "confirmPassword": {
+          "label": "Confirm password",
+          "confirmPasswordMatchMessage": "Password does not match",
+          "confirmPasswordRequiredMessage": "Please enter your new password",
+          "placeholder": "Confirm your new password"
+        },
+        "requestSuccess": "Password changed successfully!",
+        "requestFailed": "Password changed failed. Please try again.",
+        "updatePasswordButton": "Update password"
+      },
+      "userForm": {
+        "cardHeading": "User Management",
+        "userManagementSectionHeading": "Manage Users",
+        "nameOfUser": {
+          "label": "Name of user",
+          "placeholder": "Enter of name users"
+        },
+        "createOEMUser": {
+          "companyName": {
+            "label": "Company name"
+          },
+          "firstName": {
+            "label": "Your first name"
+          },
+          "lastName": {
+            "label": "Your last name"
+          },
+          "email": {
+            "label": "Email"
+          }
+        },
+        "editButton": "Edit",
+        "removeButton": "Remove",
+        "addButton": "Add"
+      }
+    }
+  },
+  "components": {
+    "deviceFiles": {
+      "specificationsFilesHeading": "Specifications Files",
+      "uploadButtonForSpecificationsFiles": "Upload",
+      "templateFilesHeading": "Template Files",
+      "uploadButtonForTemplateFiles": "Upload",
+      "firmwareFilesHeading": "Firmware Files",
+      "uploadButtonForFirmwareFiles": "Upload"
+    },
+    "deviceModel": {
+      "fileHistory": {
+        "fileHistoryTable": {
+          "fileNameHeading": "File Name",
+          "deviceIDHeading": "Device ID",
+          "uploadDateHeading": "Upload Date",
+          "versionNumberHeading": " Version Number",
+          "linkHeading": "Link"
+        }
+      },
+      "deviceModelForm": {
+        "category": {
+          "label": "Device Category"
+        },
+        "modelName": {
+          "label": "Device Model Name"
+        },
+        "supportPTZ": {
+          "label": "Support PTZ"
+        },
+        "supportHardwareDetection": {
+          "label": "Support hardware detection"
+        },
+        "detections": {
+          "label": "Max grid selection"
+        },
+        "frequencyBands": {
+          "label": "Frequency Bands Supports"
+        },
+        "videoQuality": {
+          "label": "Video Quality"
+        },
+        "powerSource": {
+          "label": "Power Source"
+        },
+        "flash": {
+          "label": "FLASH Size (in MB)"
+        },
+        "ram": {
+          "label": "RAM (in MB)"
+        },
+        "fieldOfView": {
+          "label": "FOV (Field of View)"
+        },
+        "saveDetailsButton": "Save Details"
+      }
+    },
+    "errorBoundary": {
+      "heading1": "Something went wrong.",
+      "heading2": "Please refresh"
+    },
+    "topBar": {
+      "topBarHeading": "Partner Portal",
+      "typography": "Log out"
+    },
+    "sideBar": {
+      "labels": {
+        "activeDIDMap": "Active DID Map",
+        "userPortal": "User Portal",
+        "deviceManagement": "Device Management",
+        "InstaviewIOTSubscriptionTracking": "Instaview IOT Subscription Tracking",
+        "DIDManagement": "DID Management"
+      }
+    },
+    "dropDown": {
+      "selectHeading": "Please select"
+    }
+  }
+}
