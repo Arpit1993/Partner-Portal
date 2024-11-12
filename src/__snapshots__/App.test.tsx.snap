@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app page 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <div
+        class="login-container"
+      >
+        <div
+          class="top"
+        >
+          <h1
+            class="hidden"
+            id="title"
+          >
+            <span
+              id="logo"
+            >
+              Instaview.
+              <span>
+                AI
+              </span>
+            </span>
+          </h1>
+        </div>
+        <div
+          class="login-box animated fadeInUp"
+        >
+          <div
+            class="box-header"
+          >
+            <h2>
+              Log In
+            </h2>
+          </div>
+          <span>
+            Username
+          </span>
+          <br />
+          <input
+            id="username"
+            type="text"
+            value=""
+          />
+          <br />
+          <span>
+            Password
+          </span>
+          <br />
+          <input
+            id="password"
+            type="password"
+            value=""
+          />
+          <br />
+          <button
+            class="sign-in"
+            disabled=""
+            type="button"
+          >
+            Sign In
+          </button>
+          <br />
+          <div
+            class="separate"
+          >
+            Or
+          </div>
+          <div
+            class="social-login"
+          >
+            <button
+              class="google-login"
+              type="button"
+            >
+              <img
+                alt="google"
+                src="google-icon.png"
+              />
+              Sign in with Google
+            </button>
+            <button
+              class="apple-login"
+              type="button"
+            >
+              <img
+                alt="google"
+                src="apple-icon.png"
+              />
+              Sign in with Apple
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
